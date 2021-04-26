@@ -56,15 +56,39 @@
 		338671082636078F0063E89B /* WonderfulCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				338671092636078F0063E89B /* AppDelegate.swift */,
-				3386710B2636078F0063E89B /* SceneDelegate.swift */,
-				3386710D2636078F0063E89B /* ViewController.swift */,
+				3386711E2636C99F0063E89B /* Common */,
+				338671202636CA8C0063E89B /* Model */,
+				3386711F2636C9A50063E89B /* Controller */,
 				3386710F2636078F0063E89B /* Main.storyboard */,
 				33867112263607910063E89B /* Assets.xcassets */,
 				33867114263607910063E89B /* LaunchScreen.storyboard */,
 				33867117263607910063E89B /* Info.plist */,
 			);
 			path = WonderfulCalculator;
+			sourceTree = "<group>";
+		};
+		3386711E2636C99F0063E89B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				338671092636078F0063E89B /* AppDelegate.swift */,
+				3386710B2636078F0063E89B /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3386711F2636C9A50063E89B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3386710D2636078F0063E89B /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		338671202636CA8C0063E89B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
